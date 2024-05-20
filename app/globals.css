@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    font-optical-sizing: auto;
+    
+}
+
+html{
+    scroll-behavior: smooth; 
+}
+
+h1{
+    font-weight: 800;
+    font-family: Arial, sans-serif;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;  
+}
+
+.shadow_White_1{
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.151);
+}
+
+.shadow_White_2{
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.371);
+}
+
+.shadow_White_3{
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.562);
+}
+
+.shadow_blue_2{
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 1px rgba(17, 69, 255, 0.722);
+}
+
+/*## navbar ##*/
+
+nav.sticky{
+    
+    width: 100%;
+    height: 65px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+}
+
+/*## Homeone ##*/
+
+.home{
+    background-image: url('../public/feature-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gradient-text {
+    font-weight: 800;
+    color: rgb(7, 7, 7);
+}
+
+.button_orange{
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 1px rgba(255, 129, 3, 0.888);
+}
+
+.button_orange:hover{
+    transition:0.3s ;
+    box-shadow: 0px 0px 25px 1px rgba(255, 130, 4, 0.711);
+}
+/*
+.home{
+    background-image: url('../public/bg1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+/*## Skills ##*/
+
+.info{
+    border-top-left-radius:50% 30%;
+    border-top-right-radius:50% 30%; 
+ }
+
+/*## Statistic ##*/
+
+.Number{
+    background-image: url('../public/Numbers/b4.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*## Exemple ##*/
+
+.bg-second{
+    width: 100%;
+    height: 100%;
+  
+    background: #000000;
+    --gap: 5em;
+    --line: 1px;
+    --color: rgba(255, 255, 255, 0.2);
+  
+    background-image: linear-gradient(
+        -90deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      ),
+      linear-gradient(
+        0deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      );
+    background-size: var(--gap) var(--gap);
+  }
+
+.exemple_div{
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 64, 255, 0.381);
+   
+}
+
+.exemple_div:hover{
+    transform: scale(0.98);
+    box-shadow: 0px 0px 30px 1px rgba(0, 34, 255, 0.605);
+}
+
+/*## Services ##*/
+
+.bg-primary{
+    width: 100%;
+    height: 100%;
+  
+    background: #000000;
+    --gap: 5em;
+    --line: 1px;
+    --color: rgba(255, 255, 255, 0.2);
+  
+    background-image: linear-gradient(
+        -90deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      ),
+      linear-gradient(
+        0deg,
+        transparent calc(var(--gap) - var(--line)),
+        var(--color) calc(var(--gap) - var(--line) + 1px),
+        var(--color) var(--gap)
+      );
+    background-size: var(--gap) var(--gap);
+}
+
+/*## Client ##*/
+
+.map{
+    background-image: url('../public/Client/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*## Footer ##*/
+
+/*## Telephone ##*/
+
+@media (max-width:1000px) { 
+    .info{
+        border-top-left-radius:50% 5%;
+        border-top-right-radius:50% 5%;
+        
+     }
+
+     nav{
+        background-color: darkblue;
+     }
+}
