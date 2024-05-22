@@ -24,13 +24,13 @@ Roubly is a modern, multi-language agency website built using Next.js, Zustand f
 
 ## Screenshots
 
-![1](https://github.com/rayenbenhassen07/Roubly---Agency-Website/assets/133701994/dacc24e1-8336-403b-aaab-401ab100b28b)
-![2](https://github.com/rayenbenhassen07/Roubly---Agency-Website/assets/133701994/661fa922-a075-4df6-9f2b-fb9e984f526a)
-![3](https://github.com/rayenbenhassen07/Roubly---Agency-Website/assets/133701994/4eae2208-feb5-4b93-9008-81a708bdd608)
-![4](https://github.com/rayenbenhassen07/Roubly---Agency-Website/assets/133701994/f9564ecc-5dcd-4607-a6b1-ba54c1fbdb24)
-![5](https://github.com/rayenbenhassen07/Roubly---Agency-Website/assets/133701994/da64e38a-e6d3-4660-9805-e437652799db)*
-![6](https://github.com/rayenbenhassen07/Roubly---Agency-Website/assets/133701994/2048565b-b69d-4fdc-8abe-c64e2971cccb)
-![7](https://github.com/rayenbenhassen07/Roubly---Agency-Website/assets/133701994/cb80c3ee-f009-47de-b162-bccba4e6a7be)
+![1](https://github.com/rayenbenhassen07/Potfolio-Website/assets/133701994/46368c8c-d6ae-480c-855f-d301a836d1fb)
+![2](https://github.com/rayenbenhassen07/Potfolio-Website/assets/133701994/96d26260-9a66-42db-be8b-840ebe63af9b)
+![3](https://github.com/rayenbenhassen07/Potfolio-Website/assets/133701994/351d5bd3-0d67-4d5b-bf0f-2fe2f838406f)
+![4](https://github.com/rayenbenhassen07/Potfolio-Website/assets/133701994/ae26866b-c656-42fe-adc3-7830d9d29222)
+![5](https://github.com/rayenbenhassen07/Potfolio-Website/assets/133701994/4ce958d6-a813-4ce6-aec6-28c5e398b0f1)
+![6](https://github.com/rayenbenhassen07/Potfolio-Website/assets/133701994/f68bee10-c3bc-465c-aba9-bfb4cf101e00)
+
 
 
 ## Tech Stack
